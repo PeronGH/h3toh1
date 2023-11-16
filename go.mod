@@ -1,4 +1,4 @@
-module h3toh1
+module github.com/PeronGH/h3toh1
 
 go 1.21.4
 

@@ -14,7 +14,7 @@ import (
 
 func main() {
 	if len(os.Args) != 2 {
-		fmt.Println("Usage: ./h3toh1 <http3 host>")
+		fmt.Println("Usage: h3toh1 <http3 host>")
 		os.Exit(1)
 	}
 
