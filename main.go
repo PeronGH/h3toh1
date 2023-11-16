@@ -24,6 +24,10 @@ func main() {
 	}
 
 	host := parsedUrl.Host
+	if host == "" {
+		host = os.Args[1]
+	}
+
 	hostUrl := url.URL{Scheme: "https", Host: host}
 
 	proxy := httputil.NewSingleHostReverseProxy(&hostUrl)
